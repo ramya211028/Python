@@ -1,0 +1,3 @@
+numbers = [int(x) for x in input("Enter numbers separated by spaces: ").split()]
+sum_of_numbers = sum(numbers)
+print("The sum of all numbers in the list is:", sum_of_numbers)
