@@ -1,0 +1,14 @@
+text = input("Enter a string: ")
+reversed_text = text[::-1]
+print("\nReversed string:", reversed_text)
+print("\nCharacter count:")
+print("Total characters:", len(text))
+char_freq = {}
+for char in text:
+    char_freq[char] = char_freq.get(char, 0) + 1
+for char, count in char_freq.items():
+    print(f"'{char}': {count}")
+old_char = input("\nEnter the character to replace: ")
+new_char = input("Enter the new character: ")
+replaced_text = text.replace(old_char, new_char)
+print("String after replacement:", replaced_text)
