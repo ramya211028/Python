@@ -1,0 +1,6 @@
+print("1. Swap values of two variables:")
+a = 10
+b = 20
+print(f"Before: a = {a}, b = {b}")
+a, b = b, a  
+print(f"After: a = {a}, b = {b}\n")
