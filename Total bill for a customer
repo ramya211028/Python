@@ -1,0 +1,11 @@
+items = [
+    {'name': 'Apple', 'price': 3.00, 'quantity': 4},
+    {'name': 'Bread', 'price': 2.50, 'quantity': 2},
+    {'name': 'Milk', 'price': 1.75, 'quantity': 3},
+]
+total_cost = 0.0
+for item in items:
+    item_total = item['price'] * item['quantity']
+    total_cost += item_total
+    print(f"{item['name']}: {item['quantity']} x ${item['price']} = ${item_total:.2f}")
+print(f"\nTotal Bill: ${total_cost:.2f}")
