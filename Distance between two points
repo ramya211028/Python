@@ -1,0 +1,5 @@
+print("Distance between two points:")
+x1, y1 = 3, 4
+x2, y2 = 7, 1
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print(f"Distance between ({x1}, {y1}) and ({x2}, {y2}) = {distance:.2f}")
