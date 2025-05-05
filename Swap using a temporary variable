@@ -1,0 +1,14 @@
+print("Swap using a temporary variable:")
+a = 5
+b = 10
+print(f"Before swap: a = {a}, b = {b}")
+temp = a
+a = b
+b = temp
+print(f"After swap: a = {a}, b = {b}\n")
+print("Swap without using a temporary variable:")
+x = 15
+y = 25
+print(f"Before swap: x = {x}, y = {y}")
+x, y = y, x  
+print(f"After swap: x = {x}, y = {y}")
